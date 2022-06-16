@@ -10,6 +10,18 @@ namespace Задание_1
     {
         static void Main(string[] args)
         {
+            MyMatrix matrix = new MyMatrix(2, 2);
+
+            matrix.FeedMatrix();
+            Console.WriteLine("Число столбцов - {0}\nЧисло строк - {1}", matrix.NumberOfCols, matrix.NumberOfRows);
+            matrix.ShowMatrix();
+
+            matrix.ChangeMatrix(4, 4);
+            matrix.FeedMatrix();
+            Console.WriteLine("Число столбцов - {0}\nЧисло строк - {1}", matrix.NumberOfCols, matrix.NumberOfRows);
+            matrix.ShowMatrix();
+
+            Console.ReadKey();
         }
     }
 }
