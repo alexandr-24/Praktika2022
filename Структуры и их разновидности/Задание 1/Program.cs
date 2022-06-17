@@ -8,6 +8,25 @@ namespace Задание_1
 {
     internal class Program
     {
+        struct Train
+        {
+            public string punkt { get; }
+            public int nomer { get; }
+            public string time { get; }
+
+            public Train(string Punkt, int Nomer, string Time)
+            {
+                punkt = Punkt;
+                nomer = Nomer;
+                time = Time;
+            }
+
+            public void GetInfo()
+            {
+                Console.WriteLine("Номер поезда: {0}\nПункт назначения: {1}\nВремя отправления: {2}", nomer, punkt, time);
+            }
+        }
+
         static void Main(string[] args)
         {
             Train[] trains = new Train[8];
