@@ -1,0 +1,8 @@
+C:\Users\akab2\source\repos\Praktika2022\Структуры и их разновидности\Задание 1\bin\Debug\Задание 1.exe.config
+C:\Users\akab2\source\repos\Praktika2022\Структуры и их разновидности\Задание 1\bin\Debug\Задание 1.exe
+C:\Users\akab2\source\repos\Praktika2022\Структуры и их разновидности\Задание 1\bin\Debug\Задание 1.pdb
+C:\Users\akab2\source\repos\Praktika2022\Структуры и их разновидности\Задание 1\obj\Debug\Задание 1.csproj.AssemblyReference.cache
+C:\Users\akab2\source\repos\Praktika2022\Структуры и их разновидности\Задание 1\obj\Debug\Задание 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\akab2\source\repos\Praktika2022\Структуры и их разновидности\Задание 1\obj\Debug\Задание 1.csproj.CoreCompileInputs.cache
+C:\Users\akab2\source\repos\Praktika2022\Структуры и их разновидности\Задание 1\obj\Debug\Задание 1.exe
+C:\Users\akab2\source\repos\Praktika2022\Структуры и их разновидности\Задание 1\obj\Debug\Задание 1.pdb
