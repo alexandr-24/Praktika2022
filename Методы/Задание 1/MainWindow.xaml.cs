@@ -20,9 +20,22 @@ namespace Задание_1
     /// </summary>
     public partial class MainWindow : Window
     {
+        Credit myCredit;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void CreateCreditButton_Click(object sender, RoutedEventArgs e)
+        {
+            myCredit = new Credit(Convert.ToDouble(NewCreditSummaTB.Text));
+            InfoLabel.Content = "Информация о кредите: " + myCredit.GetPayment(0);
+        }
+
+        private void PaymentButton_Click(object sender, RoutedEventArgs e)
+        {
+            InfoLabel.Content = "Информация о кредите: " + myCredit.GetPayment(Convert.ToDouble(PaymentTB.Text));
         }
     }
 }

@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Сумма кредита: " FontSize="18" Margin="5"/>
+        <TextBox x:Name="NewCreditSummaTB" FontSize="18" Margin="5" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+        <Button x:Name="CreateCreditButton" Content="Новый кредит" Grid.Row="1" Margin="5" VerticalAlignment="Center" FontSize="18" Click="CreateCreditButton_Click"/>
+
+        <Label Content="Сумма погашения: " FontSize="18" Margin="5" Grid.Row="2"/>
+        <TextBox x:Name="PaymentTB" FontSize="18" Margin="5" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="2"/>
+        <Button x:Name="PaymentButton" Content="Приянть оплату" Grid.Row="3" Margin="5" VerticalAlignment="Center" FontSize="18" Click="PaymentButton_Click"/>
+
+        <Label x:Name="InfoLabel" Content="Информация о кредите: " Grid.Row="4" Margin="5" FontSize="18" VerticalAlignment="Center"/>
     </Grid>
 </Window>
