@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="InputTB" Grid.Row="1" FontSize="24" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="5"/>
+        <Button Grid.Row="2" FontSize="24" HorizontalAlignment="Stretch" VerticalAlignment="Center" Content="Посчитать" Margin="5" Click="Button_Click"/>
+
     </Grid>
 </Window>

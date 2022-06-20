@@ -24,5 +24,19 @@ namespace Задание_2
         {
             InitializeComponent();
         }
+
+        public int factorial(int n)
+        {
+            if (n <= 1)
+                return 1;
+            else
+                return (n * factorial(n - 1));
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            int n = Convert.ToInt32(InputTB.Text);
+            MessageBox.Show(Convert.ToString(n) + "! = " + Convert.ToString(factorial(n)));
+        }
     }
 }
